@@ -1,12 +1,15 @@
 <!DOCTYPE html>
+{% load static %}
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="{%static 'css/estilo1.css' %}">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Informacion</title>
 </head>
 <body>
     <h1>Informacion del usuario</h1>
+    <img src="{%static 'images/YIA.png' %}">
     <h2>ID: {{ID}}</h2>
     <h3>Nombre: {{Nombre}}</h3>
     <H4>Email: {{Email}}</H4>
